@@ -33,11 +33,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class MainView extends VerticalLayout {
 
     /**
+     *
+     */
+    private static final long serialVersionUID = -1650237482412379503L;
+
+    /**
      * Construct a new Vaadin view.
      * <p>
      * Build the initial UI state for the user accessing the application.
      *
-     * @param service The message service. Automatically injected Spring managed bean.
+     * @param service The message service. Automatically injected Spring managed
+     *                bean.
      */
     public MainView(@Autowired GreetService service) {
 
